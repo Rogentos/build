@@ -3,11 +3,11 @@
 # script that makes it easier to bump split packages
 # (and perhaps other fun stuff)
 
-. /kogaion/bin/buildrc || exit 2
+. /argent/bin/buildrc || exit 2
 
 list="git [sub]version [tra]nsmission"
 cmd="emerge -av"
-default_overlay="kogaion-desktop"
+default_overlay="argent-desktop"
 overlay=
 
 if [ "$1" = "--repo" ]; then

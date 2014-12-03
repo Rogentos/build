@@ -1,6 +1,6 @@
 #!/bin/sh
 
-. /kogaion/bin/kernels.inc
+. /argent/bin/kernels.inc
 
 if [ "${#}" -lt 1 ]; then
 	echo "${0} <package> <package> ..." >&2 /dev/null

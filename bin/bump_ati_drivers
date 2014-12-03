@@ -1,10 +1,10 @@
 #!/bin/sh
 
-. /kogaion/bin/kernels.inc
-packages="x11-drivers/ati-drivers::kogaion-desktop"
+. /argent/bin/kernels.inc
+packages="x11-drivers/ati-drivers::argent-desktop"
 
 # build for latest kernel
-KERNEL_DIR="/usr/src/linux-${running_kernel}" emerge $packages media-video/amdcccle::kogaion-desktop
+KERNEL_DIR="/usr/src/linux-${running_kernel}" emerge $packages media-video/amdcccle::argent-desktop
 echo -5 | etc-update
 eit commit
 

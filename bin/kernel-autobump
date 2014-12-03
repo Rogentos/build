@@ -10,7 +10,7 @@ REGEX=${6}
 
 show_help() {
     echo "${0} <repo path> <pull remote> <push remote> <branch> <push tag prefix> v<track regex>" >&2
-    echo "Example: ${0} ~/repos/kernel stable origin 3.12 kogaion- 3\.12\.[0-9999]" >&2
+    echo "Example: ${0} ~/repos/kernel stable origin 3.12 argent- 3\.12\.[0-9999]" >&2
 }
 
 if [ ! -d "${REPO_PATH}" ]; then
@@ -114,14 +114,14 @@ start() {
             rollback
             return 1;
         }
-        bash kogaion/bump-configs.sh || {
+        bash argent/bump-configs.sh || {
             rollback
             return 1;
         }
 
-        local changed=$(git ls-files -m -d -o --exclude-standard kogaion/config)
+        local changed=$(git ls-files -m -d -o --exclude-standard argent/config)
         if [ -n "${changed}" ]; then
-            git commit --quiet kogaion/config -m "kogaion: bump configs" || {
+            git commit --quiet argent/config -m "argent: bump configs" || {
                 rollback
                 return 1;
             }
@@ -137,7 +137,7 @@ start() {
         }
 
         tracked_tag="${PREFIX}${tag/v}"
-        bash kogaion/tag-version.sh "${tracked_tag}" || {
+        bash argent/tag-version.sh "${tracked_tag}" || {
             rollback
             return 1;
         }
