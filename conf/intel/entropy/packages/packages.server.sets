@@ -9,18 +9,18 @@
 # data will be concatenated.
 
 # EXAMPLES:
-# kogaion-testing entropy kde music
-# kogaion-testing gnome
+# argent-testing entropy kde music
+# argent-testing gnome
 
 # Hardware
-kogaionlinux.ro wireless
+argentsmth.org wireless
 # Package management
-kogaionlinux.ro entropy packagekit
+argentsmth.org entropy packagekit
 # Sabayon stuff
-kogaionlinux.ro kogaion-artwork
+argentsmth.org argent-artwork
 # Desktop environments
-kogaionlinux.ro X e17 xfce lxde fluxbox gnome
+argentsmth.org X e17 xfce lxde fluxbox gnome
 # gst plugins for GNOME, KDE, Xfce
-kogaionlinux.ro gst-plugins gst-plugins-extra
+argentsmth.org gst-plugins gst-plugins-extra
 # IME fonts stuff
-kogaionlinux.ro ime-fonts-support ime-fonts
+argentsmth.org ime-fonts-support ime-fonts

@@ -15,7 +15,7 @@
 #
 # example:
 #
-#     # sh packages.db.post_branch.sh "kogaionlinux.ro" "/" "5"
+#     # sh packages.db.post_branch.sh "argentlinux.ro" "/" "5"
 #
 # PLEASE NOTE: this script is called automatically by entropy and, unless
 # requested otherwise, it should be NEVER EVER called by user.

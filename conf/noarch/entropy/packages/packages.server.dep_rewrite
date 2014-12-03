@@ -70,35 +70,35 @@ app-crypt/gnupg (.*)app-crypt/pinentry(.*) app-crypt/pinentry-base
 mail-client/evolution (.*)app-crypt/pinentry(.*)(\[.*\]) \1app-crypt/pinentry-gtk2\2
 
 # Fix virtualbox shitty dependencies
-app-emulation/virtualbox-guest-additions#2.6.31-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.31-kogaion
-app-emulation/virtualbox-guest-additions#2.6.32-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.32-kogaion
-app-emulation/virtualbox-guest-additions#2.6.33-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.33-kogaion
-app-emulation/virtualbox-guest-additions#2.6.34-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.34-kogaion
-app-emulation/virtualbox-guest-additions#2.6.35-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.35-kogaion
-app-emulation/virtualbox-guest-additions#2.6.36-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.36-kogaion
-app-emulation/virtualbox-guest-additions#2.6.37-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.37-kogaion
-app-emulation/virtualbox-guest-additions#2.6.38-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.38-kogaion
-app-emulation/virtualbox-guest-additions#2.6.39-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.39-kogaion
-app-emulation/virtualbox-guest-additions#3.0.0-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.0.0-kogaion
-app-emulation/virtualbox-guest-additions#3.1.0-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.1.0-kogaion
-app-emulation/virtualbox-guest-additions#3.2.0-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.2.0-kogaion
-app-emulation/virtualbox-guest-additions#3.3.0-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.3.0-kogaion
-app-emulation/virtualbox-guest-additions#3.4.0-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.4.0-kogaion
-app-emulation/virtualbox-guest-additions#3.5.0-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.5.0-kogaion
-app-emulation/virtualbox-guest-additions#3.6.0-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.6.0-kogaion
-app-emulation/virtualbox-guest-additions#3.7.0-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.7.0-kogaion
-app-emulation/virtualbox-guest-additions#3.8.0-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.8.0-kogaion
-app-emulation/virtualbox-guest-additions#3.9.0-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.9.0-kogaion
-app-emulation/virtualbox-guest-additions#3.10.0-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.10.0-kogaion
-app-emulation/virtualbox-guest-additions#3.11.0-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.11.0-kogaion
-app-emulation/virtualbox-guest-additions#3.12.0-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.12.0-kogaion
-app-emulation/virtualbox-guest-additions#3.13.0-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.13.0-kogaion
-app-emulation/virtualbox-guest-additions#3.14.0-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.14.0-kogaion
-app-emulation/virtualbox-guest-additions#3.15.0-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.15.0-kogaion
-app-emulation/virtualbox-guest-additions#3.16.0-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.16.0-kogaion
-app-emulation/virtualbox-guest-additions#3.17.0-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.17.0-kogaion
-app-emulation/virtualbox-guest-additions#3.18.0-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.18.0-kogaion
-app-emulation/virtualbox-guest-additions#3.19.0-kogaion (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.19.0-kogaion
+app-emulation/virtualbox-guest-additions#2.6.31-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.31-argent
+app-emulation/virtualbox-guest-additions#2.6.32-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.32-argent
+app-emulation/virtualbox-guest-additions#2.6.33-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.33-argent
+app-emulation/virtualbox-guest-additions#2.6.34-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.34-argent
+app-emulation/virtualbox-guest-additions#2.6.35-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.35-argent
+app-emulation/virtualbox-guest-additions#2.6.36-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.36-argent
+app-emulation/virtualbox-guest-additions#2.6.37-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.37-argent
+app-emulation/virtualbox-guest-additions#2.6.38-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.38-argent
+app-emulation/virtualbox-guest-additions#2.6.39-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#2.6.39-argent
+app-emulation/virtualbox-guest-additions#3.0.0-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.0.0-argent
+app-emulation/virtualbox-guest-additions#3.1.0-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.1.0-argent
+app-emulation/virtualbox-guest-additions#3.2.0-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.2.0-argent
+app-emulation/virtualbox-guest-additions#3.3.0-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.3.0-argent
+app-emulation/virtualbox-guest-additions#3.4.0-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.4.0-argent
+app-emulation/virtualbox-guest-additions#3.5.0-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.5.0-argent
+app-emulation/virtualbox-guest-additions#3.6.0-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.6.0-argent
+app-emulation/virtualbox-guest-additions#3.7.0-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.7.0-argent
+app-emulation/virtualbox-guest-additions#3.8.0-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.8.0-argent
+app-emulation/virtualbox-guest-additions#3.9.0-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.9.0-argent
+app-emulation/virtualbox-guest-additions#3.10.0-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.10.0-argent
+app-emulation/virtualbox-guest-additions#3.11.0-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.11.0-argent
+app-emulation/virtualbox-guest-additions#3.12.0-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.12.0-argent
+app-emulation/virtualbox-guest-additions#3.13.0-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.13.0-argent
+app-emulation/virtualbox-guest-additions#3.14.0-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.14.0-argent
+app-emulation/virtualbox-guest-additions#3.15.0-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.15.0-argent
+app-emulation/virtualbox-guest-additions#3.16.0-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.16.0-argent
+app-emulation/virtualbox-guest-additions#3.17.0-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.17.0-argent
+app-emulation/virtualbox-guest-additions#3.18.0-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.18.0-argent
+app-emulation/virtualbox-guest-additions#3.19.0-argent (.*)x11-drivers/xf86-video-virtualbox-(.*) \1x11-drivers/xf86-video-virtualbox-\2#3.19.0-argent
 
 # drop virtualbox-modules dep from virtualbox-bin
 # 2011-02-08: DISABLED because vboxusers group is required but not created by virtualbox-bin 

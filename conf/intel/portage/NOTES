@@ -1,6 +1,6 @@
 - Files in here must be real file, hardlinks or directories
 (containing split files, like for instance, package.use/
-which contains 00-kogaion.package.use).
+which contains 00-argent.package.use).
 
 Symlinks are not allowed since they're read by Entropy Server
 during repository metadata generation and, if symlink, their

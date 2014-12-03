@@ -9,7 +9,7 @@ app-admin/conky audacious hddtemp imlib iostats lua lua-imlib lua-cairo mpd thin
 # eselect-php now contains fpm init script and apache stuff
 app-admin/eselect-php fpm apache2
 app-admin/gnome-system-tools nfs
-# PackageKit, Kogaion config
+# PackageKit, Argent config
 app-admin/packagekit entropy cron pm-utils -qt4 -gtk
 # PackageKit settings
 app-admin/packagekit-base pm-utils entropy -bash-completion
@@ -793,9 +793,9 @@ sys-libs/gpm static-libs
 sys-kernel/dracut device-mapper dracut_modules_biosdevname dracut_modules_btrfs dracut_modules_dmraid dracut_modules_dmsquash-live dracut_modules_gensplash dracut_modules_lvm dracut_modules_mdraid dracut_modules_multipath dracut_modules_nbd dracut_modules_nfs dracut_modules_plymouth dracut_modules_syslog dracut_modules_crypt dracut_modules_crypt-gpg dracut_modules_crypt-loop dracut_modules_iscsi dracut_modules_systemd net
 sys-kernel/genkernel cryptsetup crypt
 sys-kernel/genkernel-next cryptsetup crypt
-sys-kernel/linux-kogaion dmraid symlink grub iscsi mdadm luks lvm zfs plymouth
-<sys-kernel/linux-kogaion-3.13 splash
-sys-kernel/kogaion-sources symlink
+sys-kernel/linux-argent dmraid symlink grub iscsi mdadm luks lvm zfs plymouth
+<sys-kernel/linux-argent-3.13 splash
+sys-kernel/argent-sources symlink
 
 sys-libs/db -java
 sys-libs/zlib minizip
@@ -899,7 +899,7 @@ x11-themes/cairo-dock-themes Azur Cobalt Djoole Glattering I_Cairo MacOSX TapisV
 x11-themes/gnome-colors-common branding
 x11-themes/gtk-engines-murrine -themes
 x11-themes/gtk-engines-qtcurve -mozilla
-x11-themes/kogaion-artwork-kde ksplash
+x11-themes/argent-artwork-kde ksplash
 x11-themes/skinenigmang-logos dxr3
 x11-themes/tango-icon-theme branding
 

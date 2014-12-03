@@ -12,13 +12,13 @@ net-fs/openafs
 >=x11-drivers/nvidia-drivers-275.21
 
 # GCC 4.6, welcome!
-sys-devel/gcc:4.6::kogaion-desktop
+sys-devel/gcc:4.6::argent-distro
 
 # Needed for the >=games-action/teeworlds-0.6.1
 >=dev-util/bam-0.4.0
 
 # Our version is fine
-media-video/nvidia-settings::kogaion-desktop
+media-video/nvidia-settings::argent-distro
 
 # Unmask Gimp 2.7, we want it
 <=media-gfx/gimp-2.8
@@ -256,7 +256,7 @@ media-gfx/yafaray:0
 >=x11-themes/gnome-themes-standard-3.12.0
 >=x11-wm/mutter-3.12.1
 # required by app-misc/tracker-0.16.4[iso]
-# required by gnome-base/nautilus-3.12.0::kogaion-desktop
+# required by gnome-base/nautilus-3.12.0::argent-distro
 # required by app-text/evince-3.12.1[nautilus]
 # required by gnome-extra/gnome-documents-3.12.0
 # required by gnome-documents (argument)
@@ -282,7 +282,7 @@ media-gfx/yafaray:0
 #  * >=upower-0.99
 =app-misc/tracker-1.0*
 
-# required by gnome-base/nautilus-3.12.0::kogaion-desktop[tracker]
+# required by gnome-base/nautilus-3.12.0::argent-distro[tracker]
 # required by nautilus (argument)
 # /usr/portage/profiles/package.mask:
 # Gilles Dartiguelongue <eva@gentoo.org> (27 Apr 2014)

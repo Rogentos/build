@@ -1,2 +1,2 @@
 # Current build server user .bashrc file
-. /kogaion/bin/buildrc
+. /argent/bin/buildrc

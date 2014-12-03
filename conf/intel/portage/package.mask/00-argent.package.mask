@@ -198,7 +198,7 @@ games-util/steam-client-meta::gamerlay
 # be unpopular.
 app-admin/glance
 
-# 2014-03-26 Fabui Erculiani: we now use systemd from kogaion-desktop
+# 2014-03-26 Fabui Erculiani: we now use systemd from argent-distro
 sys-apps/systemd::systemd-love
 sys-apps/systemd::gentoo
 
