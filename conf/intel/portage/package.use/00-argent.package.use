@@ -1175,4 +1175,6 @@ sys-libs/libaal static-libs
 
 # intel-gpu-tools is Python3 only
 x11-apps/intel-gpu-tools python_single_target_python3_3
->=app-eselect/eselect-php-0.7.1-r4 fpm apache2
+
+# php with fpm and apache2 support
+app-eselect/eselect-php fpm apache2
